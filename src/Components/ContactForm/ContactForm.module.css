@@ -1,0 +1,47 @@
+.container{
+    max-width: 1000px;
+
+    display: flex;
+    margin-top: 40px;
+}
+.Buttondiv{
+    display: flex;
+    gap: 18px;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 26px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* gap: 24px !important; */
+    margin-top: 24px;
+}
+.form_control input{
+    width: 100%;
+    /* padding:0 8px; */
+    height: 40px;
+    gap: 24px !important;
+}
+.form_control label{
+    position: absolute;
+top: -12px;
+left: 10px;
+background-color: white;
+font-size: 14px;
+
+}
+.click_btn{
+    display: flex;
+    justify-content: flex-end;
+     padding: 12px  0;
+}
+.image1_container{
+    width: 30%;
+    height: 300px;
+    /* background-color: red; */
+}
