@@ -25,7 +25,7 @@ const FetchData = () => {
     return (
         <>
             <div>FetchData</div>
-<span>setLatt</span>
+<span>set Lattitude of location</span>
             <input type="text"  onChange={(e)=>setLat(e.target.value)}/> <br />
             <span>Long</span>
             <input type="text" onChange={(e)=>setLongnt(e.target.value)} />
